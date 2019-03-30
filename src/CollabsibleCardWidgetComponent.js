@@ -33,7 +33,7 @@ class CollabsibleCard extends React.Component {
         <Scrivito.ImageTag className="img-responsive card-icon mt-3" content={ this.props.widget } attribute="icon" alt="Icon" />
         </div>
         <div className="col-lg-9">
-        <Scrivito.ContentTag tag="h2" className="header h3" content={this.props.widget} attribute="headline" />
+        <Scrivito.ContentTag tag="h2" className="header h3 pt-2" content={this.props.widget} attribute="headline" />
         <Scrivito.ContentTag tag="div" className="description mt-3" content={this.props.widget} attribute="teaser" />
         </div>
 
@@ -43,7 +43,7 @@ class CollabsibleCard extends React.Component {
             <Scrivito.ContentTag tag="div" content={this.props.widget} attribute="body" />
         </div>
         </div>
-        <div className="card-button" onClick={this.toggleCollapse}>
+        <div className="card-button text-center bg-greywhite pt-1 pb-1" onClick={this.toggleCollapse}>
           {this.state.collapsed ?
           <i className="fa fa-chevron-down fa-1x"></i>
           :
