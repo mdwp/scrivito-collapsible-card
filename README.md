@@ -1,7 +1,7 @@
-# Scrivito Advanced Button
+# Scrivito Collabsible Card
 [![CMS: Scrivito](https://img.shields.io/badge/CMS-Scrivito-brightgreen.svg)](https://scrivito.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-An alternative button React component/Scrivito widget for the Scrivito CMS.
+A collabsible card React component/Scrivito widget for the Scrivito CMS. 
 
 ## Installation
 
@@ -10,7 +10,7 @@ Open your terminal.
 `$ cd` to your Scrivito project
 
 ```
-$ npm install scrivito-adv-button
+$ npm install scrivito-collabsible-card
 ```
 
 Import the widget in your javascript (e.g. in `index.js` or `Widgets/index.js`).
@@ -18,24 +18,24 @@ Import the widget in your javascript (e.g. in `index.js` or `Widgets/index.js`).
 Add this line to your index.js:
 
 ```
-import "scrivito-adv-button";
+import "scrivito-collabsible-card";
 ```
 
 Also add the styling of the widget to your app. This can be done by either loading it via `css-loader` (e.g. in `index.js` or `Widgets/index.js`):
 
 ```
-import "scrivito-adv-button/index.css";
+import "scrivito-collabsible-card/index.css";
 ```
 
 Or by including the styling to your style sheets (e.g. in `index.scss`):
 
 ```scss
-@import "~scrivito-adv-button/index.css";
+@import "~scrivito-collabsible-card/index.css";
 ```
 
 
 ## Features
-The Scrivito Advanced Button Widget renders a button, with optional rounded borders and the option to set an anchor for the link. Works best in conjunction with our Headchor Widget, where you can store an anchor ID. The Headchor Widget is **part** of this package and is accessible in your Scrivito App automatically after you've installed this package.
+The Collabsible Card Widget renders a card with a header and a collabsible body. You can put any widget into the body.
 
 ## Development
 
@@ -52,7 +52,7 @@ npm install file:<path to build folder>
 e.g.
 
 ```
-npm install file:../scrivito-adv-button/build/
+npm install file:../scrivito-collabsible-card/build/
 ```
 
 To publish the package:
