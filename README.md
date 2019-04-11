@@ -3,6 +3,11 @@
 
 A collabsible card React component/Scrivito widget for the Scrivito CMS.
 
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/mdwp/scrivito-collabsible-card/master/collabsible-card-screenshot.png)
+
+
 ## Installation
 
 Open your terminal.
