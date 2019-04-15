@@ -1,5 +1,5 @@
 {
-  "name": "scrivito-collapsible",
+  "name": "scrivito-collapsible-card",
   "version": "1.0.1",
   "description": "A collapible card React component/Scrivito widget for the Scrivito CMS.",
   "main": "index.js",
