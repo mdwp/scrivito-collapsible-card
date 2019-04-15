@@ -1,7 +1,7 @@
 import * as Scrivito from "scrivito";
 
-Scrivito.provideEditingConfig("CollabsibleCardWidget", {
-  title: "Collabsible Card",
+Scrivito.provideEditingConfig("CollapsibleCardWidget", {
+  title: "Collapsible Card",
   attributes: {
     icon: {
       title: "Icon",

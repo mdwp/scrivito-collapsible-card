@@ -2,7 +2,7 @@ import * as React from "react";
 import * as Scrivito from "scrivito";
 
 
-class CollabsibleCard extends React.Component {
+class CollabsipleCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -56,5 +56,5 @@ class CollabsibleCard extends React.Component {
   }
 }
 
-Scrivito.provideComponent("CollabsibleCardWidget", CollabsibleCard);
+Scrivito.provideComponent("CollapsibleCardWidget", CollapsibleCard);
 

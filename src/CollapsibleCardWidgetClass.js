@@ -1,6 +1,6 @@
 import * as Scrivito from "scrivito";
 
-const CollabsibleCardWidget = Scrivito.provideWidgetClass("CollabsibleCardWidget", {
+const CollapsibleCardWidget = Scrivito.provideWidgetClass("CollapsibleCardWidget", {
   attributes: {
     icon: "reference",
     headline: "string",
@@ -9,4 +9,4 @@ const CollabsibleCardWidget = Scrivito.provideWidgetClass("CollabsibleCardWidget
   },
 });
 
-export default CollabsibleCardWidget;
+export default CollapsibleCardWidget;

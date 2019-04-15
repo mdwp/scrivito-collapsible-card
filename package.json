@@ -1,7 +1,7 @@
 {
-  "name": "scrivito-social-links",
+  "name": "scrivito-collapsible",
   "version": "1.0.1",
-  "description": "A social links React component/Scrivito widget for the Scrivito CMS.",
+  "description": "A collapible card React component/Scrivito widget for the Scrivito CMS.",
   "main": "index.js",
   "peerDependencies": {
     "react": "^16.6.0",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdwp/scrivito-collabsible-card.git"
+    "url": "git+https://github.com/mdwp/scrivito-collapsible-card.git"
   },
   "keywords": [
     "scrivito",
@@ -21,9 +21,9 @@
   "author": "mdwp",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mdwp/scrivito-collabsible-card/issues"
+    "url": "https://github.com/mdwp/scrivito-collapsible-card/issues"
   },
-  "homepage": "https://github.com/mdwp/scrivito-collabsible-card#readme",
+  "homepage": "https://github.com/mdwp/scrivito-collapsible-card#readme",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
