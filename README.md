@@ -1,11 +1,11 @@
-# Scrivito Collabsible Card
+# Scrivito Collapsible Card
 [![CMS: Scrivito](https://img.shields.io/badge/CMS-Scrivito-brightgreen.svg)](https://scrivito.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A collabsible card React component/Scrivito widget for the Scrivito CMS.
+A collapsible card React component/Scrivito widget for the Scrivito CMS.
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/mdwp/scrivito-collabsible-card/master/collabsible-card-screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/mdwp/scrivito-collapsible-card/master/collapsible-card-screenshot.png)
 
 
 ## Installation
@@ -15,7 +15,7 @@ Open your terminal.
 `$ cd` to your Scrivito project
 
 ```
-$ npm install scrivito-collabsible-card
+$ npm install scrivito-collapsible-card
 ```
 
 Import the widget in your javascript (e.g. in `index.js` or `Widgets/index.js`).
@@ -23,24 +23,24 @@ Import the widget in your javascript (e.g. in `index.js` or `Widgets/index.js`).
 Add this line to your index.js:
 
 ```
-import "scrivito-collabsible-card";
+import "scrivito-collapsible-card";
 ```
 
 Also add the styling of the widget to your app. This can be done by either loading it via `css-loader` (e.g. in `index.js` or `Widgets/index.js`):
 
 ```
-import "scrivito-collabsible-card/index.css";
+import "scrivito-collapsible-card/index.css";
 ```
 
 Or by including the styling to your style sheets (e.g. in `index.scss`):
 
 ```scss
-@import "~scrivito-collabsible-card/index.css";
+@import "~scrivito-collapsible-card/index.css";
 ```
 
 
 ## Features
-The Collabsible Card Widget renders a card with a header and a collabsible body. You can put any widget into the body.
+The Collapsible Card Widget renders a card with a header and a collapsible body. You can put any widget into the body.
 
 ## Development
 
