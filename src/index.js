@@ -1,4 +1,4 @@
-import "./CollabsipleCardWidgetClass";
-import "./CollabsipleCardWidgetComponent";
-import "./CollabsipleCardWidgetEditingConfig";
+import "./CollapsibleCardWidgetClass";
+import "./CollapsibleCardWidgetComponent";
+import "./CollapsibleCardWidgetEditingConfig";
 
